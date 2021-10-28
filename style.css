@@ -1,0 +1,97 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;}
+}
+
+.container{
+ 
+}
+
+h1 {
+  /* Center horizontally*/
+  text-align: center;
+  color: coral;
+  background-color: white;
+  font-family: cursive, serif;
+}
+h2 {
+  /* Center horizontally*/
+  text-align: center;
+  color: coral;
+  background-color: white;
+  font-family: cursive, monospace, sans-serif;
+}
+
+.dishes {
+  /* Position to the left*/
+  align-items: center;
+  background-color: rgba(201, 162, 240, .75);
+  position: left;
+  text-align: center;
+  border:  5px solid black;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: cursive, sans-serif;
+}
+dt {
+    font-weight: bold;
+}
+dl,
+dd {
+    font-size: .9rem;
+}
+dd {
+    margin-bottom: 1em;
+}
+}
+
+.dishes > ul {
+  display: inline-block;
+}
+
+.toppings {
+  /*Position to the center*/
+  align-items: center;
+  background-color: rgba(255,255,255,.75);
+  position: relative;
+  text-align: center;
+  border: 5px solid black;
+  font-family: cursive;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.toppings > ul {
+  display: inline-block;
+}
+
+.drinks {
+  align-items: center;
+  background-color: rgba(201, 162, 240, .75);
+  position: relative;
+  border:  5px solid black;
+  text-align: center;
+  font-family: cursive;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.drinks > ul{
+  display: inline-block;
+}
+
+.madisonTacoBell {
+  /* Position to the left*/
+  align-items: center;
+  background-color: rgba(255, 255, 255, .75);
+  position: center;
+  text-align: center;
+  border:  5px solid black;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+body{
+  background-image: url("homepagebackground.jpeg");
+}
+
